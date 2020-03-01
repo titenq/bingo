@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'Courier Prime';
+  src: url(../fonts/CourierPrime-Regular.ttf);
+}
+
+body {
+  font-family: 'Courier Prime', monospace;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.letra-cartela {
+  width: 20px;
+  height: 20;
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+  font-size: 20px;
+}
+
+.numero-cartela {
+  width: 20px;
+  height: 20;
+  border: 1px solid #000;
+  font-size: 20px;
+}
+
+.centro-cartela {
+  width: 20px;
+  height: 20;
+  border: 1px solid #000;
+}
+
+.ball {
+  display: block;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  margin-left: 30px;
+  background: radial-gradient(circle at 100px 100px,#0022e5 , #330272); 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.numero-sorteado {
+  color: #fff;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  font-size: 60px;
+  text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+
+.nums-ja-sorteados {
+  font-size: 24px;
+}
+
+.proximo-numero {
+  font-weight: bold;
+}
+
+.ball-ja-sorteado {
+  display: inline-block;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  background: radial-gradient(circle at 100px 100px,#0022e5 , #330272);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.numero-ja-sorteado {
+  color: #fff;
+  position: relative;
+  top: 5px;
+  left: 1px;
+  font-size: 24px;
+  text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+
+#n2 {
+  background: #000;
+  color: #fff;
+}
