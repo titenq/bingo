@@ -2,7 +2,7 @@
 ![](https://img.shields.io/github/forks/titenq/bingo.svg) 
 ![](https://img.shields.io/github/issues/titenq/bingo.svg) 
 
-### Circle Progress Stats
+### Bingo
 
 Jogo de bingo de 75 números.
 
